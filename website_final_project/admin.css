@@ -1,0 +1,73 @@
+html{
+    background-image: url("./imagens/restaurante.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.admin{
+    background: white;
+    opacity: 0.8;
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.admin input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.admin input:hover{
+    background-color: steelblue;
+    color: white;
+}
+
+.welcome{
+    background: white;
+    opacity: 0.8;
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.welcome h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.welcome button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 130%;
+}
+
+.welcome button:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+a {
+    font-size: 150%;
+    color:white;
+    text-decoration: none;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    position:absolute;
+    right:1%;        
+}
+

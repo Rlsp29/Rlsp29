@@ -1,0 +1,109 @@
+
+html{
+    background-color:whitesmoke;
+}
+.menu {
+    margin:5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    margin-right:auto;
+    margin-left:auto;
+}
+
+th{
+    color: white;
+    padding:10px;
+    border:1px solid teal;
+    background-color:lightseagreen;
+    border-spacing: 0;
+}
+
+table{
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 10px;
+    padding:10px;
+    background-color:teal;
+    color: rgb(27, 26, 26);
+    border-spacing: 0px;
+    text-align: center;  
+}
+td{
+    border: 1px solid teal;
+    background-color:white;
+    border-spacing: 0;
+
+}
+a {
+    font-size: 150%;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:teal;
+    margin-top: 5px;
+    right:1%;
+    position:absolute;
+   
+}
+a:hover{
+    background-color:slategray;
+}
+#voltar {
+    position:absolute;
+    left:1%;
+   
+}
+button, select{
+    padding:10px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color:white;
+    margin-left:1%;
+}
+.notmenu{
+    font-size:150%;
+    background-color:teal;
+    color:white;
+    margin-top: 5%;
+    width: 300px;
+    padding:50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.notmenu input{
+
+    width: 100%;
+    height: 8%;
+    font-size:100%;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    color:white;
+}
+.categoria{
+    font-size:60%;
+}
+#enviar{
+    font-size:70%;
+    width: 50%;
+    border-radius: 15px;   
+}
+h1{
+    font-size:250%;
+    margin-top:5%;
+    color:teal;
+    text-align:center;
+}
+.detalhe{
+    font-size: 20px;
+    margin-top:6%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:lightseagreen;
+    padding:30px;
+    color:white;
+    max-width:1000px;
+    border-radius: 5px;
+   
+}
+
+
+

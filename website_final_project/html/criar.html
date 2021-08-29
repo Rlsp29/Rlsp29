@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../menu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a id="voltar" href="../php/lista.php">Voltar</a><br><br><br>
+    <form class="notmenu" action="../php/criar.php" method="POST">
+        Categoria: <select class="categoria" name="categoria">
+            <option value="Sopa">Sopa</option>
+            <option value="Entrada">Entrada</option>
+            <option value="Peixe" >Peixe</option>
+            <option value="Carne" >Carne</option>
+            <option value="Sobremesa" >Sobremesa</option>
+          </select><br><br>
+        Prato: <input type="text" name="prato" required= true><br>
+        Descrição: <input type="text" name="descricao" required= true><br>
+        Preço:  <input type="number" name="preco" required= true step=".01"><br><br><br>
+        <input id="enviar" type="submit" values="OK">
+    </form>
+</body>
+</html>
